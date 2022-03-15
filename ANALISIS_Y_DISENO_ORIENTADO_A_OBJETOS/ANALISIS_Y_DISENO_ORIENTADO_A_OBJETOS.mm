@@ -1,9 +1,9 @@
 <map version="freeplane 1.9.8">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Analisis y&#xa;Diseño OO" FOLDED="false" ID="ID_1740909865" CREATED="1597270399466" MODIFIED="1642378666895">
+<node TEXT="Analisis y&#xa;Diseño OO" FOLDED="false" ID="ID_1740909865" CREATED="1597270399466" MODIFIED="1647321022174">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <hook NAME="MapStyle" background="#f9f9f8" zoom="0.909">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" show_notes_in_map="false" show_note_icons="true" associatedTemplateLocation="template:/light_nord_template.mm" fit_to_viewport="false"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="false" show_notes_in_map="false" show_note_icons="true" associatedTemplateLocation="template:/light_nord_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -78,37 +78,23 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="1 Estandares de Codificacion" POSITION="right" ID="ID_1439236602" CREATED="1611881548642" MODIFIED="1642378663206" LINK="mapas/Estandares%20de%20codificacion.mm" HGAP_QUANTITY="32.75 pt" VSHIFT_QUANTITY="-51.75 pt">
+<node TEXT="1 Estandares de Codificacion" POSITION="right" ID="ID_1439236602" CREATED="1611881548642" MODIFIED="1647292944766" LINK="mapas/Estandares%20de%20codificacion.mm" HGAP_QUANTITY="95 pt" VSHIFT_QUANTITY="-21 pt">
 <edge COLOR="#0000ff"/>
 <font SIZE="14"/>
 </node>
-<node TEXT="Documentos pdf" POSITION="left" ID="ID_1369488898" CREATED="1635476969832" MODIFIED="1642378655638" HGAP_QUANTITY="71 pt" VSHIFT_QUANTITY="-40.5 pt">
+<node TEXT="2 Analisis de clases" POSITION="right" ID="ID_1533485687" CREATED="1597962516580" MODIFIED="1647321020444" LINK="mapas/Analisis%20de%20clases.mm" HGAP_QUANTITY="97.25 pt" VSHIFT_QUANTITY="-4.5 pt">
+<edge COLOR="#00ffff"/>
+<font SIZE="14"/>
+</node>
+<node TEXT="Diseño de clases" POSITION="right" ID="ID_1702789677" CREATED="1642036620124" MODIFIED="1647321022174" LINK="mapas/Diseño%20de%20clases.mm" HGAP_QUANTITY="101.75 pt" VSHIFT_QUANTITY="21 pt"/>
+<node TEXT="Documentos pdf" POSITION="right" ID="ID_1369488898" CREATED="1635476969832" MODIFIED="1647292935485" HGAP_QUANTITY="71.75 pt" VSHIFT_QUANTITY="38.25 pt">
 <edge COLOR="#00ff00"/>
 <font SIZE="14"/>
 <node TEXT="Vision general de la ingenieria web" ID="ID_1377793604" CREATED="1635476988052" MODIFIED="1635477006923" LINK="documentos/vision-general-de-la-ingenieria-web.pdf"/>
 <node TEXT="Vision general del software" ID="ID_1046613922" CREATED="1635477048139" MODIFIED="1635477063148" LINK="documentos/vision-general-del-software.pdf"/>
-<node TEXT="Teoria de la POO" ID="ID_317860848" CREATED="1635477727547" MODIFIED="1635477745293" LINK="documentos/teoria_POO.pdf"/>
+<node TEXT="Teoria de la POO" ID="ID_317860848" CREATED="1635477727547" MODIFIED="1647223345186" LINK="documentos/teoria_POO.pdf"/>
 <node TEXT="POO con Java" ID="ID_1870038367" CREATED="1635868513373" MODIFIED="1635868548136" LINK="documentos/programacion-orientada-a-objetos-con-java.pdf"/>
-</node>
-<node TEXT="Analisis" POSITION="right" ID="ID_1753793755" CREATED="1642036611489" MODIFIED="1642378665006" HGAP_QUANTITY="61.25 pt">
-<node TEXT="2 Analisis de clases" ID="ID_1533485687" CREATED="1597962516580" MODIFIED="1642190400246" LINK="mapas/Analisis%20de%20clases.mm" HGAP_QUANTITY="74.75 pt" VSHIFT_QUANTITY="1.5 pt">
-<edge COLOR="#00ffff"/>
-<font SIZE="14"/>
-</node>
-</node>
-<node TEXT="Diseño" POSITION="right" ID="ID_1702789677" CREATED="1642036620124" MODIFIED="1642378666894" HGAP_QUANTITY="59.75 pt" VSHIFT_QUANTITY="41.25 pt">
-<node TEXT="Diseño de clases" ID="ID_795696102" CREATED="1642189644152" MODIFIED="1642190420325" LINK="mapas/Diseño%20de%20clases.mm" HGAP_QUANTITY="79.25 pt" VSHIFT_QUANTITY="4.5 pt"/>
-<node TEXT="3 Patron de diseño" ID="ID_879703889" CREATED="1597984562935" MODIFIED="1642368173575" LINK="mapas/Patronesdediseno.mm" HGAP_QUANTITY="78.5 pt" VSHIFT_QUANTITY="5.25 pt">
-<edge COLOR="#007c00"/>
-<font SIZE="14"/>
-</node>
-<node TEXT="4 Patrones arquitectonicos" ID="ID_1711810083" CREATED="1611377973307" MODIFIED="1642368174919" LINK="mapas/Patrones%20Arquitectonicos.mm" HGAP_QUANTITY="80 pt" VSHIFT_QUANTITY="6.75 pt">
-<edge COLOR="#ff0000"/>
-<font SIZE="14"/>
-</node>
-</node>
-<node TEXT="UML" POSITION="left" ID="ID_219038227" CREATED="1617643416621" MODIFIED="1635727527725" LINK="UML.mm" HGAP_QUANTITY="67.25 pt" VSHIFT_QUANTITY="17.25 pt">
-<edge COLOR="#7c007c"/>
+<node TEXT="UML" ID="ID_579209766" CREATED="1647185149748" MODIFIED="1647185161419" LINK="documentos/UML%20-%20Casos%20de%20uso.pdf"/>
 </node>
 </node>
 </map>

@@ -1,9 +1,9 @@
 <map version="freeplane 1.9.8">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Estandares de&#xa;Codificacion" FOLDED="false" ID="ID_368301869" CREATED="1597962577614" MODIFIED="1642378703254" STYLE="oval">
-<font SIZE="16"/>
+<node TEXT="Estandares de&#xa;Codificacion" FOLDED="false" ID="ID_368301869" CREATED="1597962577614" MODIFIED="1647321041845" STYLE="oval">
+<font SIZE="18"/>
 <edge COLOR="#003399"/>
-<hook NAME="MapStyle" background="#f9f9f8" zoom="0.826">
+<hook NAME="MapStyle" background="#f9f9f8" zoom="0.909">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" show_note_icons="true" associatedTemplateLocation="template:/light_nord_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -80,88 +80,29 @@
 </map_styles>
 </hook>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<node TEXT="Codigo de calidad" POSITION="left" ID="ID_1389098886" CREATED="1617643539962" MODIFIED="1642190546157" HGAP_QUANTITY="84.5 pt" VSHIFT_QUANTITY="-3 pt">
+<node TEXT="Buenas practicas" POSITION="right" ID="ID_1782082292" CREATED="1634948477231" MODIFIED="1647293103422" HGAP_QUANTITY="86 pt" VSHIFT_QUANTITY="-22.5 pt">
+<edge COLOR="#7c7c00"/>
+<node TEXT="Codiogo Limpio" ID="ID_712050933" CREATED="1611881298881" MODIFIED="1647293103421" LINK="Codigo%20Limpio.mm" HGAP_QUANTITY="53.75 pt" VSHIFT_QUANTITY="23.25 pt"/>
+<node TEXT="Principios SOLID" ID="ID_1257420662" CREATED="1597871399118" MODIFIED="1635375948245" LINK="SOLID.mm" HGAP_QUANTITY="52.25 pt" VSHIFT_QUANTITY="-3.75 pt"/>
+<node TEXT="Principios GRASP" ID="ID_1660175838" CREATED="1597962424923" MODIFIED="1623811740135" LINK="Principios%20GRASP.mm" HGAP_QUANTITY="53.75 pt" VSHIFT_QUANTITY="-30.75 pt"/>
+</node>
+<node TEXT="Malas practicas" LOCALIZED_STYLE_REF="default" POSITION="right" ID="ID_52346066" CREATED="1617643492416" MODIFIED="1647292878951" HGAP_QUANTITY="83.75 pt" VSHIFT_QUANTITY="-15.75 pt" BACKGROUND_COLOR="#cccccc">
+<font SIZE="14"/>
+<edge COLOR="#003399"/>
+<node TEXT="Smellcode" ID="ID_1169387145" CREATED="1597962300871" MODIFIED="1635374588752" LINK="Smellcode.mm" HGAP_QUANTITY="32 pt" VSHIFT_QUANTITY="-5.25 pt"/>
+<node TEXT="Antipatrones" ID="ID_33178735" CREATED="1597270706764" MODIFIED="1635374590668" LINK="Antipatrones.mm" HGAP_QUANTITY="32.75 pt" VSHIFT_QUANTITY="4.5 pt"/>
+</node>
+<node TEXT="Codigo de calidad" POSITION="right" ID="ID_1389098886" CREATED="1617643539962" MODIFIED="1647321604204" HGAP_QUANTITY="55.25 pt" VSHIFT_QUANTITY="51 pt">
 <edge COLOR="#ff3399"/>
-<node TEXT="Alta cohecion" ID="ID_1197335419" CREATED="1610771570166" MODIFIED="1634949883767"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="Formato" ID="ID_1563059970" CREATED="1634949570832" MODIFIED="1647321604203" HGAP_QUANTITY="28.25 pt" VSHIFT_QUANTITY="-12 pt"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      <font size="4">Para corregir un metodo que hace dos cosas debemos separar en otros metodos </font>
+      <b><font size="4">Lineas</font></b>
     </p>
-    <p>
-      <font size="4">Para el tictaktoe que chequea la casilla y muestra en pantalla se corrige mostrantdo el error con un enumerado de errores.</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node TEXT="Bajo acoplamiento" ID="ID_1326721311" CREATED="1623812478263" MODIFIED="1623812483355"/>
-<node TEXT="leyes de demeter" ID="ID_1099802037" CREATED="1611377018175" MODIFIED="1642018252562"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font size="4">Cuando yo hablo, debo hablar con los que yo conozco y no con los que conoce el que yo conozco </font>
-    </p>
-    <p>
-      <font size="4">si le pido a un objeto con un get y el me pasa y hace get de otro y otro &nbsp;get get get se hace una cadena horrorosa y ademas estoy incentibando a clases estupidas sin responsabilidad alguna debo evitar hablar con los que yo no conozco directamente</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node TEXT="InstanceOf" ID="ID_1154141346" CREATED="1611680940796" MODIFIED="1642018252083" HGAP_QUANTITY="20.75 pt" VSHIFT_QUANTITY="7.5 pt"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font size="4">Preguntar por el tipo de objeto polimorfico (instance of) if (instanceof.xxxx) </font>
-    </p>
-    <p>
-      <font size="4">Destruye los objetivos de la programacion orientada a objetos, es un problema muy dificil de resistir por parte de los neofitos. </font>
-    </p>
-    <p>
-      <font size="4">Hay que dejar de hacer esto para el resto de nuestras vidas. </font>
-    </p>
-    <p>
-      <font size="4">Esto se arregla con la tecnica del doble despacho inventada por los de SmallTalk</font>
-    </p>
-  </body>
-</html></richcontent>
-<node TEXT="Doble Despacho" ID="ID_1462921554" CREATED="1611681090057" MODIFIED="1634950952728"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font size="4">Permite añadir&nbsp;&nbsp;operaciones a las clases sin tener que modificalras. La operacion a ejecutar depende de la clase de peticion&nbsp;&nbsp;(acepta) y del tipo de los dos receptores (Visitor, Elemento) ..Si lo hacemos mediante un </font><font size="4" color="#ff3333">visitor</font><font size="4">&nbsp;se duplica el código recorrido en cada objeto de tipo compuesto. </font>
-    </p>
-    <p>
-      <font size="4">Ejemplo codigo eclipse </font>
-    </p>
-    <p>
-      <font size="4">Se hace una sobrecarga de metodos y el this como argumento hace la diferencia entre hombre y mujer </font>
-    </p>
-    <p>
-      <font size="4">video 11 minuto 55</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node TEXT="Formato" ID="ID_1563059970" CREATED="1634949570832" MODIFIED="1641853456975" HGAP_QUANTITY="24.5 pt" VSHIFT_QUANTITY="7.5 pt">
-<node TEXT="Lineas" ID="ID_1330364926" CREATED="1634951512952" MODIFIED="1634951906503"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
-<html>
-  <head>
-    
-  </head>
-  <body>
     <p>
       <font size="4">No mas de 80 caracteres </font>
     </p>
@@ -181,17 +122,8 @@
       
     </p>
     <p>
-      
+      <font size="4"><b>Comentarios</b>&nbsp;</font>
     </p>
-  </body>
-</html></richcontent>
-</node>
-<node TEXT="Comentarios" ID="ID_1349291414" CREATED="1634951908646" MODIFIED="1634952555815"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
-<html>
-  <head>
-    
-  </head>
-  <body>
     <p>
       <font size="4">No comentar lo que no sea necesario </font>
     </p>
@@ -208,17 +140,8 @@
       
     </p>
     <p>
-      
+      <font size="4"><b>Nom</b>brado </font>
     </p>
-  </body>
-</html></richcontent>
-</node>
-<node TEXT="Nombrado" ID="ID_905057758" CREATED="1634952557142" MODIFIED="1642018329110"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
-<html>
-  <head>
-    
-  </head>
-  <body>
     <p>
       <font size="4">No uses nombres que no se pueden pronunciar, porque del codigo se habla con otras personas. </font>
     </p>
@@ -228,14 +151,12 @@
     <p>
       <font size="4">Cambia los nombres cuando encuentres mejores </font>
     </p>
-  </body>
-</html></richcontent>
-<node TEXT="clases" ID="ID_1925918733" CREATED="1634954657465" MODIFIED="1642053219081" HGAP_QUANTITY="25.25 pt" VSHIFT_QUANTITY="1.5 pt"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
-<html>
-  <head>
-    
-  </head>
-  <body>
+    <p>
+      
+    </p>
+    <p style="text-align: left">
+      <b><font size="4">Nombrado de clases</font></b>
+    </p>
     <p>
       <font size="4">El nombrado de las clases deben ser sustantivos </font>
     </p>
@@ -244,18 +165,132 @@
     </p>
     <ul>
       <li>
-        <font size="4">El sintoma es muchas funciones estaticas que puedo llamar por donde quiera</font>
+        <font size="4">El sintoma es muchas funciones estaticas que puedo llamar por donde quiera </font>
       </li>
     </ul>
     <p>
       <font size="4">No se repite codigo, si una clase tiene responsabilidad debes hacerla, Por muy pequeña que sea. El objetivo es no andar repitiendo codigo por todo lado y engordando las clases sin motivo.</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
+<node TEXT="Alta cohecion" ID="ID_1197335419" CREATED="1610771570166" MODIFIED="1647321153053" HGAP_QUANTITY="22.25 pt" VSHIFT_QUANTITY="-10.5 pt"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">Para tener una alta cohesion los metodos de las clases deben estar estrechisimamente relacionados entre si. </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4">Los metodos no deben hacer mas de una cosa y deben transformar el estado (atributos) de la clase o a otros metodos, si no lo hacen es que tal vez no deberian estar en esa clase. </font>
+    </p>
+    <p>
+      <font size="4">&nbsp;</font>
+    </p>
+    <p>
+      <font size="4">Para corregir un metodo que hace dos cosas debemos separar en otros metodos (refactoriong). </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4">Para el tictaktoe que chequea la casilla y muestra en pantalla se corrige mostrantdo el error con un enumerado de errores.</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
+<node TEXT="Bajo acoplamiento" ID="ID_1326721311" CREATED="1623812478263" MODIFIED="1647321600697"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">Las clases no deberian depender de maximo 3 clases para reducir el acoplamiento </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4">Las relaciones entre clases no deben ser ciclicas ya que aumenta el acoplamiento y la complegidad se dispara. Hacer un cambio en una clase hace que muchas otras sean afectadas de manera que no se puede preveer. </font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node TEXT="Atributos de una Interfaz" ID="ID_1966389700" CREATED="1597608556446" MODIFIED="1642018251359" HGAP_QUANTITY="20.75 pt" VSHIFT_QUANTITY="13.5 pt"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="leyes de demeter" ID="ID_1099802037" CREATED="1611377018175" MODIFIED="1647321600509" HGAP_QUANTITY="15.5 pt" VSHIFT_QUANTITY="4.5 pt"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">Cuando yo hablo, debo hablar con los que yo conozco y no con los que conoce el que yo conozco. </font>
+    </p>
+    <p>
+      <font size="4">&nbsp;</font>
+    </p>
+    <p>
+      <font size="4">Si le pido a un objeto con un get y el me pasa pero hace get de otro y otro &nbsp;get get get se hace una cadena horrorosa, ademas estoy incentivando a clases estupidas (que solo hacen get y set)&nbsp;&nbsp;sin responsabilidad alguna </font>
+    </p>
+    <p>
+      <font size="4">Debo evitar hablar con los que yo no conozco directamente.</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="InstanceOf" ID="ID_1154141346" CREATED="1611680940796" MODIFIED="1647321600316" HGAP_QUANTITY="20.75 pt" VSHIFT_QUANTITY="7.5 pt"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">Preguntar por el tipo de objeto polimorfico (instance of) if (instanceof.xxxx) </font>
+    </p>
+    <p>
+      <font size="4">Destruye los objetivos de la programacion orientada a objetos, es un problema muy dificil de resistir por parte de los neofitos. </font>
+    </p>
+    <p>
+      <font size="4">Hay que dejar de hacer esto para el resto de nuestras vidas. </font>
+    </p>
+    <p>
+      <font size="4">Esto se arregla con la tecnica del </font><font color="#cc0066" size="4"><b>doble despacho </b></font><font size="4">inventada por los de SmallTalk </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4"><b>Tecnica del doble despacho </b></font>
+    </p>
+    <p>
+      <font size="4">Permite añadir&nbsp;&nbsp;operaciones a las clases sin tener que modificalras. La operacion a ejecutar depende de la clase de peticion&nbsp;&nbsp;(acepta) y del tipo de los dos receptores (Visitor, Elemento) ..Si lo hacemos mediante un </font><font color="#ff3333" size="4">visitor</font><font size="4">&nbsp;se duplica el código recorrido en cada objeto de tipo compuesto. </font>
+    </p>
+    <p>
+      <font size="4">&nbsp;</font>
+    </p>
+    <p>
+      <font size="4">Ejemplo codigo eclipse </font>
+    </p>
+    <p>
+      <font size="4">Se hace una sobrecarga de metodos y el this como argumento hace la diferencia entre hombre y mujer </font>
+    </p>
+    <p>
+      <font size="4">video 11 minuto 55</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Atributos de una Interfaz" ID="ID_1966389700" CREATED="1597608556446" MODIFIED="1647321599960" HGAP_QUANTITY="20.75 pt" VSHIFT_QUANTITY="13.5 pt"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -305,22 +340,11 @@
       <font size="4">En cuanto a principio de interfaz completa, en oposicion esta YAGNI</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
-<node TEXT="Buenas practicas" POSITION="right" ID="ID_1782082292" CREATED="1634948477231" MODIFIED="1642378703254" HGAP_QUANTITY="32.75 pt" VSHIFT_QUANTITY="-12.75 pt">
-<edge COLOR="#7c7c00"/>
-<node TEXT="Codiogo Limpio" ID="ID_712050933" CREATED="1611881298881" MODIFIED="1635375946565" LINK="Codigo%20Limpio.mm" HGAP_QUANTITY="53 pt" VSHIFT_QUANTITY="29.25 pt"/>
-<node TEXT="Principios SOLID" ID="ID_1257420662" CREATED="1597871399118" MODIFIED="1635375948245" LINK="SOLID.mm" HGAP_QUANTITY="52.25 pt" VSHIFT_QUANTITY="-3.75 pt"/>
-<node TEXT="Principios GRASP" ID="ID_1660175838" CREATED="1597962424923" MODIFIED="1623811740135" LINK="Principios%20GRASP.mm" HGAP_QUANTITY="53.75 pt" VSHIFT_QUANTITY="-30.75 pt"/>
-</node>
-<node TEXT="Malas practicas" LOCALIZED_STYLE_REF="default" POSITION="right" ID="ID_52346066" CREATED="1617643492416" MODIFIED="1642378685239" HGAP_QUANTITY="33.5 pt" VSHIFT_QUANTITY="-22.5 pt" BACKGROUND_COLOR="#cccccc">
-<font SIZE="14"/>
-<edge COLOR="#003399"/>
-<node TEXT="Smellcode" ID="ID_1169387145" CREATED="1597962300871" MODIFIED="1635374588752" LINK="Smellcode.mm" HGAP_QUANTITY="32 pt" VSHIFT_QUANTITY="-5.25 pt"/>
-<node TEXT="Antipatrones" ID="ID_33178735" CREATED="1597270706764" MODIFIED="1635374590668" LINK="Antipatrones.mm" HGAP_QUANTITY="32.75 pt" VSHIFT_QUANTITY="4.5 pt"/>
-</node>
-<node TEXT="Gestion de errores" POSITION="right" ID="ID_1217226829" CREATED="1634948413529" MODIFIED="1642018360736" LINK="Gestion%20de%20errores.mm" HGAP_QUANTITY="29 pt" VSHIFT_QUANTITY="-18.75 pt">
+<node TEXT="Gestion de errores" POSITION="right" ID="ID_1217226829" CREATED="1634948413529" MODIFIED="1647292877525" LINK="Gestion%20de%20errores.mm" HGAP_QUANTITY="50.75 pt" VSHIFT_QUANTITY="47.25 pt">
 <edge COLOR="#ff0000"/>
 </node>
 </node>

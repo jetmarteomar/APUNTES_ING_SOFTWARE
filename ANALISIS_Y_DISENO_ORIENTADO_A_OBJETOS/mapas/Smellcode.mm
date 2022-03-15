@@ -925,29 +925,30 @@
   </body>
 </html></richcontent>
 </node>
-<node TEXT="Atributos temporales" ID="ID_1135169364" CREATED="1611848537191" MODIFIED="1635303163630" HGAP_QUANTITY="62.75 pt" VSHIFT_QUANTITY="7.5 pt"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="Atributos temporales" ID="ID_1135169364" CREATED="1611848537191" MODIFIED="1646718165267" HGAP_QUANTITY="62.75 pt" VSHIFT_QUANTITY="7.5 pt"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      Codigo sucio por atributos temporales
+      <font size="4">Codigo sucio por atributos temporales </font>
     </p>
     <p>
-      Se esta poniendo como atributos elementos de informacion que la clase solo necesita durante un momento dado
+      <font size="4">Se esta poniendo como atributos elementos de informacion que la clase solo necesita durante un momento dado </font>
     </p>
     <p>
-      Los atributos deben ser elementos de informacion que la clase necesita durante toda su vida
+      <font size="4">Los atributos deben ser elementos de informacion que la clase necesita durante toda su vida, no para un momento dado. </font>
     </p>
     <p>
-      Solucion, coger los atributos y los metodos que los usan y me los llevo a otra clase
+      <font size="4">Solucion, coger los atributos y los metodos que los usan y me los llevo a otra clase </font>
     </p>
     <p>
-      &#160;Luego los usas en esa otra clase y cuando se lo necesite lo usas y luego lo eliminas con el garbash collector
+      <font size="4">Luego los usas en esa otra clase y cuando se lo necesite lo usas y luego lo eliminas con el garbash collector. El tiempo de vida del objeto es muy corto al contrario de antes que era el mismo de la vida de la aplicacion.</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 <node TEXT="COUPLERS" POSITION="right" ID="ID_1690135478" CREATED="1617655036921" MODIFIED="1635436817728" HGAP_QUANTITY="77 pt" VSHIFT_QUANTITY="-14.25 pt">
@@ -1088,8 +1089,7 @@
       <font size="4">Los get y set deben ser solo los necesarios, y no hallar un diseño en funcion a get y set entre todas las clases</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="Codigo muerto" ID="ID_1192060550" CREATED="1597598680033" MODIFIED="1635436812760" HGAP_QUANTITY="20 pt" VSHIFT_QUANTITY="7.5 pt"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>

@@ -3,7 +3,7 @@
 <node TEXT="Codigo Limpio" FOLDED="false" ID="ID_1727746967" CREATED="1611881211193" MODIFIED="1641867941327" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle" background="#f9f9f8" zoom="1.21">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" show_icon_for_attributes="true" associatedTemplateLocation="template:/light_nord_template.mm"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" show_note_icons="true" associatedTemplateLocation="template:/light_nord_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -79,76 +79,78 @@
 </map_styles>
 </hook>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<node TEXT="Principios del Menor Compromiso y la Menor Sorpresa" POSITION="right" ID="ID_1319687058" CREATED="1597379526759" MODIFIED="1635455776328" HGAP_QUANTITY="38 pt" VSHIFT_QUANTITY="-13.5 pt"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="Principios del Menor Compromiso y la Menor Sorpresa" POSITION="right" ID="ID_1319687058" CREATED="1597379526759" MODIFIED="1647222787203" HGAP_QUANTITY="38 pt" VSHIFT_QUANTITY="-13.5 pt"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      <font size="3">Sinonimos </font>
+      <font size="4">Sinonimos </font>
     </p>
     <p>
-      <font size="3">Los nombres de las funciones deberian decir lo que hacen (clean code) Smell code) Robert Martin </font>
+      <font size="4">Los nombres de las funciones deberian decir lo que hacen (clean code) Smell code) Robert Martin </font>
     </p>
     <p>
-      <font size="3">Antonimos: </font>
+      <font size="4">Antonimos: </font>
     </p>
     <p>
-      <font size="3">Comportamiento obvio no esta implementado( Clean code (smell code )) Robert Martin. </font>
+      <font size="4">Comportamiento obvio no esta implementado( Clean code (smell code )) Robert Martin. </font>
     </p>
     <p>
-      <font size="3">Responsablilidad fuera de lugar (clean code (smell code)) Robert Martin </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font size="3">Principio de Menor Compromiso. a travez del cual la interface de un objeto proporciona su comportamiento esencial, y nada mas. (Abelson y Sussman) </font>
+      <font size="4">Responsablilidad fuera de lugar (clean code (smell code)) Robert Martin </font>
     </p>
     <p>
       
     </p>
     <p>
-      <font size="3">Principio de la Menor Sorpresa: a travez del cual una abtraccion captura todo el comprtamiento de un objeto, ni mas ni menos , no ofrece sorpresas o efectos secundarios que van mas alla del&nbsp;&nbsp;ambito del la abstraccion (G Booch)</font>
+      <font size="4">Principio de Menor Compromiso. a travez del cual la interface de un objeto proporciona su comportamiento esencial, y nada mas. (Abelson y Sussman) </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4">Principio de la Menor Sorpresa: a travez del cual una abtraccion captura todo el comprtamiento de un objeto, ni mas ni menos , no ofrece sorpresas o efectos secundarios que van mas alla del&nbsp;&nbsp;ambito del la abstraccion (G Booch)</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <edge COLOR="#0000ff"/>
 </node>
-<node TEXT="Principio de minima sorpresa" POSITION="right" ID="ID_15689810" CREATED="1610431530620" MODIFIED="1635455774456" HGAP_QUANTITY="34.25 pt" VSHIFT_QUANTITY="-8.25 pt"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="Principio de minima sorpresa" POSITION="right" ID="ID_15689810" CREATED="1610431530620" MODIFIED="1647223214180" HGAP_QUANTITY="34.25 pt" VSHIFT_QUANTITY="-8.25 pt"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p http-equiv="content-type" content="text/html; charset=utf-8">
-      <font size="3">En <a href="https://es.wikipedia.org/wiki/Inform%C3%A1tica" title="Informática">informática</a>, el <b>principio de la mínima sorpresa</b>&nbsp;se aplica al diseño de <a href="https://es.wikipedia.org/wiki/Interfaces" class="mw-redirect mw-disambig" title="Interfaces">interfaces</a>, diseño de 'software' y la <a href="https://es.wikipedia.org/wiki/Ergonom%C3%ADa" title="Ergonomía">ergonomía</a>. </font>
+      <font size="4">En <a href="https://es.wikipedia.org/wiki/Inform%C3%A1tica" title="Informática">informática</a>, el <b>principio de la mínima sorpresa</b>&nbsp;se aplica al diseño de <a href="https://es.wikipedia.org/wiki/Interfaces" class="mw-redirect mw-disambig" title="Interfaces">interfaces</a>, diseño de 'software' y la <a href="https://es.wikipedia.org/wiki/Ergonom%C3%ADa" title="Ergonomía">ergonomía</a>. </font>
     </p>
     <p>
-      <font size="3">Este principio establece que cuando dos elementos de una interfaz entran en conflicto o son ambiguos, el comportamiento del programa ha de ser el que genere la mínima sorpresa por parte del usuario.En particular, un programador debería pensar en el comportamiento que menos sorprenda a quien use el programa en lugar del más natural para quien conozca su comportamiento interno.<sup id="cite_ref-1" class="reference separada"><a href="https://es.wikipedia.org/wiki/Principio_de_la_m%C3%ADnima_sorpresa#cite_note-1">1</a></sup>​ </font>
+      <font size="4">Este principio establece que cuando dos elementos de una interfaz entran en conflicto o son ambiguos, el comportamiento del programa ha de ser el que genere la mínima sorpresa por parte del usuario.En particular, un programador debería pensar en el comportamiento que menos sorprenda a quien use el programa en lugar del más natural para quien conozca su comportamiento interno.<sup id="cite_ref-1" class="reference separada"><a href="https://es.wikipedia.org/wiki/Principio_de_la_m%C3%ADnima_sorpresa#cite_note-1">1</a></sup>​ </font>
     </p>
     <p>
-      <font size="3">En la práctica, conlleva la elección de acciones por defecto adecuadas. </font>
+      <font size="4">En la práctica, conlleva la elección de acciones por defecto adecuadas. </font>
     </p>
     <p>
-      <font size="3">En el principio de la minima sorpresa esta mal, que en el nombre diga que haga una cosa pero por detras haga otra mas que no se ve.(metodos cohesivos que hacen una sola cosa) </font>
+      <font size="4">En el principio de la minima sorpresa esta mal, que en el nombre diga que haga una cosa pero por detras haga otra mas que no se ve.(metodos cohesivos que hacen una sola cosa) </font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <edge COLOR="#00ff00"/>
 </node>
-<node TEXT="Kiss" POSITION="right" ID="ID_1255254613" CREATED="1610501768689" MODIFIED="1635455771184" HGAP_QUANTITY="32.75 pt" VSHIFT_QUANTITY="6.75 pt"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="Kiss" POSITION="right" ID="ID_1255254613" CREATED="1610501768689" MODIFIED="1647223214196" HGAP_QUANTITY="32.75 pt" VSHIFT_QUANTITY="6.75 pt"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p http-equiv="content-type" content="text/html; charset=utf-8">
-      <font size="4" color="#ff0000">El <b>principio KISS</b></font><font size="4" color="#000000">&nbsp;(del inglés <i>Keep It Simple, Stupid!</i>:<sup id="cite_ref-foldoc_1-0" class="reference separada"><a href="https://es.wikipedia.org/wiki/Principio_KISS#cite_note-foldoc-1">1</a></sup>​ «¡Mantenlo sencillo, estúpido!») es un <a href="https://es.wikipedia.org/wiki/Acr%C3%B3nimo" title="Acrónimo">acrónimo</a>&nbsp;usado como <a href="https://es.wikipedia.org/wiki/Principio" title="Principio">principio</a>&nbsp;de <a href="https://es.wikipedia.org/wiki/Dise%C3%B1o" title="Diseño">diseño</a>. </font>
+      <font color="#ff0000" size="4">El <b>principio KISS</b></font><font color="#000000" size="4">&nbsp;(del inglés <i>Keep It Simple, Stupid!</i>:<sup id="cite_ref-foldoc_1-0" class="reference separada"><a href="https://es.wikipedia.org/wiki/Principio_KISS#cite_note-foldoc-1">1</a></sup>​ «¡Mantenlo sencillo, estúpido!») es un <a href="https://es.wikipedia.org/wiki/Acr%C3%B3nimo" title="Acrónimo">acrónimo</a>&nbsp;usado como <a href="https://es.wikipedia.org/wiki/Principio" title="Principio">principio</a>&nbsp;de <a href="https://es.wikipedia.org/wiki/Dise%C3%B1o" title="Diseño">diseño</a>. </font>
     </p>
     <p>
-      <font size="4" color="#000000">El principio KISS establece que la mayoría de sistemas funcionan mejor si se mantienen simples que si se hacen complejos; por ello, la <a href="https://es.wikipedia.org/wiki/Simplicidad" class="mw-disambig" title="Simplicidad">simplicidad</a>&nbsp;debe ser mantenida como un objetivo clave del <a href="https://es.wikipedia.org/wiki/Dise%C3%B1o" title="Diseño">diseño</a>, y cualquier <a href="https://es.wikipedia.org/wiki/Complejidad" title="Complejidad">complejidad</a>&nbsp;accidental debe ser evitada.</font>
+      <font color="#000000" size="4">El principio KISS establece que la mayoría de sistemas funcionan mejor si se mantienen simples que si se hacen complejos; por ello, la <a href="https://es.wikipedia.org/wiki/Simplicidad" class="mw-disambig" title="Simplicidad">simplicidad</a>&nbsp;debe ser mantenida como un objetivo clave del <a href="https://es.wikipedia.org/wiki/Dise%C3%B1o" title="Diseño">diseño</a>, y cualquier <a href="https://es.wikipedia.org/wiki/Complejidad" title="Complejidad">complejidad</a>&nbsp;accidental debe ser evitada.</font>
     </p>
     <p>
       <font size="4">Por encima de todo, el codigo sencillo a no ser que tengas una muy buena razon para lo contrario. </font>
@@ -157,7 +159,8 @@
       <font size="4">De constumbre los programadores hacen las cosas complicadas adrede.</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <edge COLOR="#ff00ff"/>
 </node>
 <node TEXT="Yagni" POSITION="right" ID="ID_349411104" CREATED="1597608394395" MODIFIED="1635455792336" HGAP_QUANTITY="32 pt" VSHIFT_QUANTITY="7.5 pt"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">

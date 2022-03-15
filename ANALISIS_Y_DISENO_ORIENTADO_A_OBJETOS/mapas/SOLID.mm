@@ -120,10 +120,9 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="Open-closed" POSITION="right" ID="ID_1472684098" CREATED="1610950851846" MODIFIED="1635653243906" HGAP_QUANTITY="65.75 pt" VSHIFT_QUANTITY="-6.75 pt">
+<node TEXT="Open-closed" POSITION="right" ID="ID_1472684098" CREATED="1610950851846" MODIFIED="1646807634726" HGAP_QUANTITY="65.75 pt" VSHIFT_QUANTITY="-6.75 pt">
 <edge COLOR="#00ff00"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -132,25 +131,83 @@
   </head>
   <body>
     <p>
-      Open close primciples (Mertrand Meyer)
+      <font size="4">Open close primciples (Mertrand Meyer) </font>
     </p>
     <p>
-      Una entidad debe ser abierta para su extencion pero cerrada para su modificacion
+      <font size="4">&nbsp;* Definido por Robert Martin (Open/Close Principle - OCP) como uno de los principios SOLID </font>
     </p>
     <p>
-      <font color="rgb(32, 33, 34)" face="sans-serif">Dentro de la&nbsp;</font><a href="https://es.wikipedia.org/wiki/Programaci%C3%B3n_orientada_a_objetos" title="" style="text-decoration: none; color: rgb(6, 69, 173); background-color: rgb(255, 255, 255); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; font-family: sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px"><font color="rgb(6, 69, 173)" face="sans-serif" size="14px">programación orientada a objetos</font></a><font color="rgb(32, 33, 34)" face="sans-serif">, el&nbsp;</font><font color="rgb(32, 33, 34)" face="sans-serif" size="14px"><b style="color: rgb(32, 33, 34); font-family: sans-serif; font-size: 14px; font-style: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">principio de abierto/cerrado</b></font><font color="rgb(32, 33, 34)" face="sans-serif">&nbsp;u&nbsp;</font><font color="rgb(32, 33, 34)" face="sans-serif" size="14px"><b><i style="color: rgb(32, 33, 34); font-family: sans-serif; font-size: 14px; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">OCP</i></b></font><font color="rgb(32, 33, 34)" face="sans-serif">&nbsp;(siglas del inglés&nbsp;</font><font color="rgb(32, 33, 34)" face="sans-serif" size="14px"><b><i style="color: rgb(32, 33, 34); font-family: sans-serif; font-size: 14px; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">Open/Closed Principle</i></b></font><font color="rgb(32, 33, 34)" face="sans-serif">) establece que «una entidad de software (clase, módulo, función, etc.) debe quedarse abierta para su extensión, pero cerrada para su modificación». Es decir, se debe poder extender el comportamiento de tal entidad pero sin modificar su&nbsp;</font><a href="https://es.wikipedia.org/wiki/C%C3%B3digo_fuente" title="Código fuente" style="text-decoration: none; color: rgb(6, 69, 173); background-color: rgb(255, 255, 255); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; font-family: sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px"><font color="rgb(6, 69, 173)" face="sans-serif" size="14px">código fuente </font></a>
+      <font size="4">&nbsp;• El autor original es Bertran Meyer en 1988 </font>
     </p>
     <p>
-      <font color="rgb(32, 33, 34)" face="sans-serif">La denominación&nbsp;</font><font color="rgb(32, 33, 34)" face="sans-serif" size="14px"><b style="color: rgb(32, 33, 34); font-family: sans-serif; font-size: 14px; font-style: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">abierto/cerrado</b></font><font color="rgb(32, 33, 34)" face="sans-serif">&nbsp;ha sido utilizada de dos maneras: ambas se basan en la&nbsp;</font><a href="https://es.wikipedia.org/wiki/Herencia_(inform%C3%A1tica)" title="Herencia (informática)" style="text-decoration: none; color: rgb(6, 69, 173); background-color: rgb(255, 255, 255); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; font-family: sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px"><font color="rgb(6, 69, 173)" face="sans-serif" size="14px">herencia</font></a><font color="rgb(32, 33, 34)" face="sans-serif">&nbsp;para resolver el aparente dilema, pero sus objetivos, técnicas y resultados son diferentes. </font>
+      <font size="4"><b>Motivación:</b>&nbsp;</font>
+    </p>
+    <p>
+      <font size="4">&nbsp;• Se debería diseñar módulos que nunca cambien. Cuando los &nbsp;&nbsp;requisitos cambian, se extiende el comportamiento de dichos &nbsp;&nbsp;módulos añadiendo nuevo código, no cambiando el viejo código que &nbsp;ya funciona </font>
     </p>
     <p>
       
     </p>
     <p>
-      <font color="rgb(32, 33, 34)" face="sans-serif">Una clase está cerrada, dado que puede ser compilada, almacenada en una librería y usada por otras clases de cliente. Pero también está abierta, dado que a partir de ella podríamos crear nuevas subclases que incorporaran características nuevas. Y al crear una subclase, no hay ninguna necesidad de modificar las clases cliente de la superclase.</font>
+      <font size="4"><b>Justificación:</b>&nbsp;</font>
+    </p>
+    <p>
+      <font size="4">&nbsp;Las entidades de software (módulos, clases, métodos, ...) deben &nbsp;&nbsp;estar abiertas a la extension pero cerradas a la modificación </font>
+    </p>
+    <p>
+      <font size="4">Parece&nbsp;que estos dos atributos están en conflicto entre sí. La forma &nbsp;&nbsp;normal de extender el comportamiento de un módulo es hacer&nbsp;&nbsp;&nbsp;cambios a ese módulo. Un módulo que no puede ser cambiado &nbsp;se &nbsp;piensa normalmente que tendrá un comportamiento fijo. </font>
+    </p>
+    <p>
+      <font size="4"><b>Solución</b>: </font>
+    </p>
+    <p>
+      <font size="4">&nbsp;&nbsp;• Usando los principios de la programación orientada a objetos, es &nbsp;&nbsp;&nbsp;possible crear abstracciones que son fijas y a la vez representan un &nbsp;&nbsp;grupo ilimitado de posibles comportamientos. </font>
+    </p>
+    <p>
+      <font size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Las abstracciones son clases base abstractas y el ilimitado grupo &nbsp;de posibles comportamientos es representado por todos las &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;posibles clases derivadas. Es possible para un modulo manipular una abstracción. Tal modulo puede ser cerrado para la &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modificación si depende de una abstracción que es fija. Todavía elcomportamiento del modulo puede ser extendido creando &nbsp;nuevas derivadas de la abstracción. </font>
+    </p>
+    <p>
+      <font size="4">&nbsp;&nbsp;• No preguntar por el tipo de objeto polimórfico </font>
+    </p>
+    <p>
+      <font size="4">&nbsp;&nbsp;- No usar atributos que no sean privados </font>
+    </p>
+    <p>
+      <font size="4">&nbsp;&nbsp;- No usar variables globales </font>
+    </p>
+    <p>
+      <font size="4">Contraindicaciones: </font>
+    </p>
+    <p>
+      <font size="4">&nbsp;&nbsp;• Debería estar claro que no significa que un programa sea 100% &nbsp;&nbsp;cerrado. En general, no es la cuestión cómo cerrar un modulo, habrá &nbsp;&nbsp;siempre alguna clase de cambio para la cual no está cerrado </font>
+    </p>
+    <p>
+      <font size="4">&nbsp;&nbsp;• Dado que el cierre no puede ser completo, debe ser una estrategia. Estos es, los diseñadores deben elegir la clase de cambios contra los cuales cerrar el diseño. Esto toma cierta cantidad de presciencia derivada de la experiencia.&nbsp;&nbsp;Los diseñadores&nbsp;experimentados conocen a los usuarios y la industria &nbsp;suficientemente bien para juzgar la probabilidad de diferentes &nbsp;clases de cambios. Se asegura de que el Principio &nbsp;Abierto/Cerrado es aplicado para los cambios más probables. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font>
+    </p>
+    <p>
+      <font size="4">YAGNI! esta en oposicion a open close. </font>
+    </p>
+    <p>
+      <font size="4">________________________________________________________________________________ </font>
+    </p>
+    <p>
+      <font size="4">Una entidad debe ser abierta para su extencion pero cerrada para su modificacion </font>
+    </p>
+    <p>
+      <font color="rgb(32, 33, 34)" face="sans-serif" size="4">Dentro de la&nbsp;</font><a href="https://es.wikipedia.org/wiki/Programaci%C3%B3n_orientada_a_objetos" title="" style="text-decoration: none; color: rgb(6, 69, 173); background-color: rgb(255, 255, 255); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; font-family: sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px"><font color="rgb(6, 69, 173)" face="sans-serif" size="4">programación orientada a objetos</font></a><font color="rgb(32, 33, 34)" face="sans-serif" size="4">, el&nbsp;</font><font color="rgb(32, 33, 34)" face="sans-serif" size="14px"><b style="color: rgb(32, 33, 34); font-family: sans-serif; font-size: 14px; font-style: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">principio de abierto/cerrado</b></font><font color="rgb(32, 33, 34)" face="sans-serif" size="4">&nbsp;u&nbsp;</font><font color="rgb(32, 33, 34)" face="sans-serif" size="14px"><b><i style="color: rgb(32, 33, 34); font-family: sans-serif; font-size: 14px; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">OCP</i></b></font><font color="rgb(32, 33, 34)" face="sans-serif" size="4">&nbsp;(siglas del inglés&nbsp;</font><font color="rgb(32, 33, 34)" face="sans-serif" size="14px"><b><i style="color: rgb(32, 33, 34); font-family: sans-serif; font-size: 14px; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">Open/Closed Principle</i></b></font><font color="rgb(32, 33, 34)" face="sans-serif" size="4">) establece que «una entidad de software (clase, módulo, función, etc.) debe quedarse abierta para su extensión, pero cerrada para su modificación». Es decir, se debe poder extender el comportamiento de tal entidad pero sin modificar su&nbsp;</font><a href="https://es.wikipedia.org/wiki/C%C3%B3digo_fuente" title="Código fuente" style="text-decoration: none; color: rgb(6, 69, 173); background-color: rgb(255, 255, 255); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; font-family: sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px"><font color="rgb(6, 69, 173)" face="sans-serif" size="4">código fuente </font></a>
+    </p>
+    <p>
+      <font color="rgb(32, 33, 34)" face="sans-serif" size="4">La denominación&nbsp;</font><font color="rgb(32, 33, 34)" face="sans-serif" size="14px"><b style="color: rgb(32, 33, 34); font-family: sans-serif; font-size: 14px; font-style: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">abierto/cerrado</b></font><font color="rgb(32, 33, 34)" face="sans-serif" size="4">&nbsp;ha sido utilizada de dos maneras: ambas se basan en la&nbsp;</font><a href="https://es.wikipedia.org/wiki/Herencia_(inform%C3%A1tica)" title="Herencia (informática)" style="text-decoration: none; color: rgb(6, 69, 173); background-color: rgb(255, 255, 255); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; font-family: sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px"><font color="rgb(6, 69, 173)" face="sans-serif" size="4">herencia</font></a><font color="rgb(32, 33, 34)" face="sans-serif" size="4">&nbsp;para resolver el aparente dilema, pero sus objetivos, técnicas y resultados son diferentes. </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="rgb(32, 33, 34)" face="sans-serif" size="4">Una clase está cerrada, dado que puede ser compilada, almacenada en una librería y usada por otras clases de cliente. Pero también está abierta, dado que a partir de ella podríamos crear nuevas subclases que incorporaran características nuevas. Y al crear una subclase, no hay ninguna necesidad de modificar las clases cliente de la superclase.</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node TEXT="Origen" ID="ID_1643266492" CREATED="1623821291069" MODIFIED="1623821461421"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -228,7 +285,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Principio de sustitucion de Liskov" POSITION="right" ID="ID_1056529396" CREATED="1597871424672" MODIFIED="1635727393786" LINK="documentos/principioLiskov.pdf" HGAP_QUANTITY="52.25 pt" VSHIFT_QUANTITY="-3.75 pt"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="Principio de sustitucion de Liskov" POSITION="right" ID="ID_1056529396" CREATED="1597871424672" MODIFIED="1642487312133" LINK="documentos/principioLiskov.pdf" HGAP_QUANTITY="52.25 pt" VSHIFT_QUANTITY="-3.75 pt"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -246,13 +303,10 @@
       </li>
     </ul>
     <p>
-      
+      <font size="4">Definido por Robert Martin( liskov's sustitution principle LSP) como uno de los principios SOLID. </font>
     </p>
     <p>
-      <font size="4">Definido pr Robert Martin( liskov's sustitution principle LSP) como uno de los principios SOLID. </font>
-    </p>
-    <p>
-      <font size="4">Esta inspirado en los trabajos de Barbara Liskov: &quot;Lo que se quiere aqui es algo como la siguiente propieda de sustitucion: si para cad </font>
+      <font size="4">Esta inspirado en los trabajos de Barbara Liskov: </font>
     </p>
     <p>
       <font color="#0000c0" size="4">El principio de sustitución de Liskov nos dice que si en alguna parte de nuestro código estamos usando una clase, y esta clase es extendida, tenemos que poder utilizar cualquiera de las clases hijas y que el programa siga siendo válido. Esto nos obliga a asegurarnos de que cuando extendemos una clase no estamos alterando el comportamiento de la padre.</font><font size="4">&nbsp; </font>
@@ -292,6 +346,9 @@
       </li>
       <li>
         <font size="4">Al final lo más probable es que la clase tenga tan poco código que acabes teniendo un simple interfaz. Esto no supone ningún problema en absoluto: </font>
+      </li>
+      <li>
+        <font size="4">Otra forma de arreglar la llamada de los objetos polimorficos sin preguntar su tipo es usar la tecnica del doble despacho.</font>
       </li>
     </ul>
     <p>
@@ -354,7 +411,7 @@
       <font color="#0000c0" size="4">Con composicion yo puedo hacer lo que me de la gana pero con herencia estoy condicionado a usar metodos que no quiero</font>
     </p>
     <p>
-      <font color="#008000" size="4">El instanceof no se debe usar nunca. </font>
+      <font color="#008000" size="4">El instanceof no se debe usar nunca.&nbsp;</font>
     </p>
   </body>
 </html></richcontent>
@@ -448,6 +505,44 @@
     </p>
     <p>
       <font size="4" color="#ff0000">Ejemplo: </font><font size="4" color="#000000">En la coordenadaTiktaktoe uso composicion, dentro de la clase declaro coordenada y ya no erede de coordenada, si me piden algo de la clase coordenada entonces lo delego pero si me piden algo de la clase coordenadaTictactoe entonces lo hago yo.&quot;coordenada Tiktaktoe&quot;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node TEXT="Tecnica del doble despacho" ID="ID_751087468" CREATED="1642486567270" MODIFIED="1642487732239"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        <font size="4">Otra manera de detectar el incumplimiento de Liscov es si tu codigo esta preguntando por el tipo de objeto. &quot;instanceof&quot;. si tienes que preguntar para poder usar una clase derivada es una mala señal. No se puede programar el cliente de la case co [ if(esto instanceof otro ) ]. Preguntar por el objeto polimorfico DESTRUYE los objetivos de la programacion orientada a objetos. Es un problema muy dificil de resistir para los neofitos (hacer esto es una chapuza). Ejemplo del hombre y la mujer que llegan y el recepcionista los recibe y saluda sin verlos, por polimorfismo no sabe quienes, al escuchar su voz sabe quien es.</font>
+      </li>
+      <li>
+        <font size="4">El problema si no se hace esto, cuando haya nuevos objetos los if iran creciendo cada vez mas y mas</font>
+      </li>
+      <li>
+        <font size="4">Si las personas se relacionan con mas de uno (ejm recepcionista , camarero) omas no se puede manejar ya que si son 100 los vicitantes se tendria que sobrescribir los 100 metodos. Para solucionar esto usamos un visitador (se parece al patron vicitor)</font>
+      </li>
+      <li>
+        <font size="4">No confundir, el patron viicitor usa la tecnica del doble despacho pero no es lo mismo.</font>
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4">Le lanzo un mensaje al objeto y el me responde con otro mensaje. </font>
+    </p>
+    <p>
+      <font size="4">Yo le mando un mensaje al objeto polimorfico que no puedo preguntarle quien es, en la clase padre de los objetos que heredan esta el receptor del mensaje que se envia como parametro el cliente para que lo acepten. </font>
+    </p>
+    <p>
+      <font size="4">El objeto polimorfico sobrescribe el metodo del padre&nbsp;&nbsp;y pone como parametro a si mismo. </font>
+    </p>
+    <p>
+      <font size="4">v11 T50:30 </font>
     </p>
   </body>
 </html></richcontent>
