@@ -1,6 +1,6 @@
 <map version="freeplane 1.9.8">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="GRASP" FOLDED="false" ID="ID_568122259" CREATED="1597962361911" MODIFIED="1642378948694" STYLE="oval">
+<node TEXT="GRASP" FOLDED="false" ID="ID_568122259" CREATED="1597962361911" MODIFIED="1647322888257" STYLE="oval">
 <font SIZE="18" BOLD="true"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -59,7 +59,8 @@
       </li>
     </ul>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <hook NAME="MapStyle" background="#f9f9f8">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" show_note_icons="true" associatedTemplateLocation="template:/light_nord_template.mm" fit_to_viewport="false"/>
 
@@ -138,7 +139,7 @@
 </hook>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="PRINCIPIOS" POSITION="right" ID="ID_751163932" CREATED="1634960884928" MODIFIED="1642379047388" HGAP_QUANTITY="44 pt" VSHIFT_QUANTITY="-1.5 pt">
-<arrowlink TRANSPARENCY="140" DASH="2 7" FONT_SIZE="12" DESTINATION="ID_1278276906" MIDDLE_LABEL="Formas de asignar &#xa;responsabilidades a la clase" STARTINCLINATION="-36.75 pt;-176.99999 pt;" ENDINCLINATION="-84 pt;-184.49999 pt;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
+<arrowlink TRANSPARENCY="140" DASH="2 7" FONT_SIZE="12" DESTINATION="ID_1278276906" MIDDLE_LABEL="Formas de asignar &#xa;responsabilidades a la clase" STARTINCLINATION="-36 pt;-176.24999 pt;" ENDINCLINATION="-83.25 pt;-183.74999 pt;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
 <edge COLOR="#7c7c00"/>
 <font BOLD="true"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -168,8 +169,7 @@
       <font color="rgb(32, 33, 34)" face="sans-serif" size="4">Si estoy haciendo muchos </font><font color="#ff0000" face="sans-serif" size="4"><b>get()</b></font><b><font color="rgb(32, 33, 34)" face="sans-serif" size="4">&nbsp;</font></b><font color="rgb(32, 33, 34)" face="sans-serif" size="4">es muy mala señal, porque estoy robando la informacion. Lo que tenia que hacer esta informacion lo esta haciendo otra en otro lado.</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="2 Alta cohesion" FOLDED="true" ID="ID_325113565" CREATED="1597275710987" MODIFIED="1642030161561" HGAP_QUANTITY="67.25 pt" VSHIFT_QUANTITY="-5.25 pt"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -827,8 +827,7 @@
       <font color="rgb(32, 33, 34)" face="sans-serif">El patrón de indirección nos aporta bajar el acoplamiento entre dos clases asignando la responsabilidad de la mediación entre ellos a un tercer elemento (clase) intermedio. Por ejemplo, en un TPV (Terminal de Punto de Venta) usar una Interfaz &quot;Adaptador&quot; a través de la cual, con las clases que la realicen, podamos establecer los distintos métodos de pago.</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="Problema" ID="ID_1034610251" CREATED="1623814497135" MODIFIED="1623814514749"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
