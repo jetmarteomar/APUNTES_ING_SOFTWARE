@@ -1,5 +1,5 @@
-<map version="freeplane 1.9.8">
-<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+<map version="freeplane 1.9.13">
+<!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="ANALISIS DE CLASES" FOLDED="false" ID="ID_214662838" CREATED="1597962462980" MODIFIED="1647320643711" STYLE="rectangle">
 <font SIZE="24"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
@@ -118,8 +118,8 @@
 </map_styles>
 </hook>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<node TEXT="Encontrar clases" POSITION="right" ID="ID_970276831" CREATED="1647320039936" MODIFIED="1647320639718" HGAP_QUANTITY="57.5 pt" VSHIFT_QUANTITY="-0.75 pt">
-<node TEXT="Estrategias de clasificacion de clases" ID="ID_1327173890" CREATED="1597292289030" MODIFIED="1647227895068" HGAP_QUANTITY="62.75 pt" VSHIFT_QUANTITY="-12 pt">
+<node TEXT="Encontrar clases" FOLDED="true" POSITION="right" ID="ID_970276831" CREATED="1647320039936" MODIFIED="1647320639718" HGAP_QUANTITY="57.5 pt" VSHIFT_QUANTITY="-0.75 pt">
+<node TEXT="Estrategias de clasificacion de clases (Tecnicas)" ID="ID_1327173890" CREATED="1597292289030" MODIFIED="1653638115972" HGAP_QUANTITY="62.75 pt" VSHIFT_QUANTITY="-12 pt">
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
@@ -167,14 +167,17 @@
     </p>
   </body>
 </html></richcontent>
-<node TEXT="Analisis categorizacion clasica" ID="ID_1728966579" CREATED="1597292307653" MODIFIED="1647228189802" HGAP_QUANTITY="36.5 pt" VSHIFT_QUANTITY="-0.75 pt"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="Analisis categorizacion clasica" ID="ID_1728966579" CREATED="1597292307653" MODIFIED="1653638442096" HGAP_QUANTITY="36.5 pt" VSHIFT_QUANTITY="-0.75 pt"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      <b><font color="#993300" size="4"><u>El enfoque clasico o categorizacion clasica es darte una lista genericas que cuando veas en tu proyecto, son buenos ejemplos para ser clases. </u></font></b>
+      <b><font color="#993300" size="4"><u>El enfoque clasico o categorizacion clasica es darte una lista generica de entidades que cuando veas en tu proyecto, veas cuales son buenos candidatos para ser clases. </u></font></b>
+    </p>
+    <p>
+      
     </p>
     <p>
       <b><font color="#008000" size="4">Nota: El peligro de hacer lo primero que se te ocurre es pasar por alto muchas clases y por falta de esas clases vas a engrosar las clases que tienes</font></b>
@@ -183,7 +186,10 @@
       
     </p>
     <p>
-      <b><font color="#ff0000" size="4">Estrategia</font><font size="4">: U</font></b><font size="4">n número de metodólogos han propuesto diversas fuentes de clases y objetos, derivados de los requisitos del dominio del problema: </font>
+      <b><font color="#ff0000" size="4">Estrategia</font><font size="4">: Buscar en el dominio del problema.</font></b>
+    </p>
+    <p>
+      <b><font size="4">U</font></b><font size="4">n número de metodólogos han propuesto diversas fuentes de clases y objetos, derivados de los requisitos del <b>dominio del problema: </b></font>
     </p>
     <ul>
       <li>
@@ -200,7 +206,7 @@
       </li>
     </ul>
     <p>
-      <b><font color="#ff0000" size="4">Estrategia fuentes de clases y objetos </font><font size="4">:</font></b>
+      <b><font color="#ff0000" size="4">Encontrar fuentes de clases y objetos </font><font size="4">:</font></b>
     </p>
     <ul>
       <li>
@@ -220,16 +226,19 @@
       </li>
     </ul>
     <p>
-      <font size="4">Sustantivos son los ideales para nombres de clases </font>
+      
     </p>
     <p>
-      <font size="4">Verbos para funciones </font>
+      <font size="4">Sustantivos son los ideales para nombres de clases. Los sustantivos definen al objeto. Los nombres de las clases siempre deben ser cosas.</font>
     </p>
     <p>
-      <font color="#ff0000" size="4">Estrategia: </font>
+      <font size="4">Verbos para funciones. Definen la accion . Los nombres de los metodos siempre deben ser acciones.</font>
     </p>
     <p>
-      <font size="4">Darte una lista de cosas genericas que cuando veas en tu ejemplo son buenos ejemplos para ser tus clases. </font>
+      
+    </p>
+    <p>
+      <font size="4">Una buena estrategia es darte una lista de cosas genericas que cuando veas en tu ejemplo son buenos ejemplos para ser tus clases. </font>
     </p>
     <p>
       <font size="4">Ejemplo: </font>
@@ -248,14 +257,20 @@
   </body>
 </html></richcontent>
 </node>
-<node TEXT="Descripcion informal" ID="ID_293650742" CREATED="1597292352141" MODIFIED="1647230270364" HGAP_QUANTITY="36.5 pt" VSHIFT_QUANTITY="0.75 pt"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="Descripcion informal texto de Abbott" ID="ID_293650742" CREATED="1597292352141" MODIFIED="1653639179815" HGAP_QUANTITY="36.5 pt" VSHIFT_QUANTITY="0.75 pt"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="#ff0033" size="4"><b>Abbott</b></font><font size="4">&nbsp;sugiere escribir una descripción del problema (o una parte de un problema) y luego subrayar los</font><font color="#ff0033" size="4">&nbsp;sustantivos y verbos. </font><font size="4">Los nombres representan objetos candidatos, y los verbos representan operaciones candidatos en ellos. El enfoque de Abbott es útil porque es simple y porque obliga a los desarrolladores a trabajar en el vocabulario del espacio del problema. </font>
+      <font color="#ff0033" size="4"><b>Abbott</b></font><font size="4">&nbsp;sugiere escribir una descripción del problema (o una parte de un problema) y luego subrayar los</font><font color="#ff0033" size="4">&nbsp;sustantivos y verbos. </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4">Los nombres representan objetos candidatos, y los verbos representan operaciones candidatos en ellos. El enfoque de Abbott es útil porque es simple y porque obliga a los desarrolladores a trabajar en el vocabulario del espacio del problema. </font>
     </p>
     <p>
       <b><font size="4">Estrategia:</font></b><font size="4">&nbsp; </font>
@@ -277,6 +292,9 @@
     </p>
     <p>
       <font size="4">El lenguaje humano es un vehículo de expresión</font><font color="#008000" size="4">&nbsp;tremendamente impreciso</font><font size="4">, por lo que la calidad de la lista resultante de los objetos y las operaciones depende de la habilidad de la escritura de su autor. </font>
+    </p>
+    <p>
+      
     </p>
     <p>
       <font size="4">Por otra parte, cualquier sustantivo puede ser verbo, y cualquier verbo puede ser sustantivo (</font><font color="#008000" size="4">cosificación</font><font size="4">). </font>
@@ -308,7 +326,7 @@
   </body>
 </html></richcontent>
 </node>
-<node TEXT="Analisis del dominio" ID="ID_433525886" CREATED="1597292372061" MODIFIED="1647230487165" HGAP_QUANTITY="38.75 pt"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="Analisis del dominio" ID="ID_433525886" CREATED="1597292372061" MODIFIED="1653640642135" HGAP_QUANTITY="38.75 pt"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -321,7 +339,7 @@
       
     </p>
     <p>
-      <font size="4">Muchas veces el analisis de requisitos</font><font color="#008000" size="4">&nbsp;esta mal escrito</font><font size="4">&nbsp;y eso dificulta la identificacion de las clases. Para mejorar el analisis, en lugar de leer los requisitos mejor llamamos al experto en el dominio( es el que sabe todo sobre lo que necesita el sistema o lo que se quiere lograr con el sistema) y dejo que me lo cuenten los expertos en el dominio. </font>
+      <font size="4">Muchas veces el analisis de requisitos</font><font color="#008000" size="4">&nbsp;esta mal escrito</font><font size="4">&nbsp;y eso dificulta la identificacion de las clases. Para mejorar el analisis, en lugar de leer los requisitos funcionales, mejor llamamos al experto en el dominio( es el que sabe todo sobre lo que necesita el sistema o lo que se quiere lograr con el sistema) y dejo que me lo cuenten los expertos en el dominio. </font>
     </p>
     <p>
       
@@ -337,7 +355,7 @@
     </p>
     <ul>
       <li>
-        <font size="4">A menudo, un experto de dominio e<u>s </u>simplemente un usuario,<u>&nbsp; </u>como un ingeniero del tren o expendedor en un sistema ferroviario, o una enfermera o un médico en un hospital. </font>
+        <font size="4">A menudo, un experto de dominio e<u>s </u>simplemente un usuario, como un ingeniero del tren o expendedor en un sistema ferroviario, o una enfermera o un médico en un hospital. </font>
       </li>
       <li>
         <font size="4">Un experto del dominio normalmente&nbsp;no será un<u>&nbsp;</u>desarrollador<u>&nbsp;</u>de software; más comúnmente, él o ella es simplemente una persona que está íntimamente familiarizado con todos los elementos de un problema particular. </font>
@@ -350,19 +368,19 @@
       
     </p>
     <p>
-      <font size="4">Me traigo al experto en el dominio y hablo con el (no es el cliente que paga , es el que</font><font color="#008000" size="4">&nbsp;va a usar la aplicacion</font><font size="4">) </font>
+      <font size="4">Me traigo al experto en el dominio y hablo con el (no es el cliente que paga , </font><font size="4" color="#00cc00">es el que</font><font color="#008000" size="4">&nbsp;va a usar la aplicacion</font><font size="4">) </font>
     </p>
     <p>
       
     </p>
     <p>
-      <font size="4">Usar palabras que usa el experto en el dominio, no las palabras que usa el programador.(que me cuente su mundo) </font>
+      <font size="4">Usar palabras que usa el experto en el dominio, no usar las palabras que usa el programador.(que me cuente su mundo) </font>
     </p>
     <p>
       
     </p>
     <p>
-      <font size="4">Respetar el vocabulario de los expertos del dominio y normalizar su uso a lo largo del proyecto <b>sin cambiarlas por sinonimos. </b></font>
+      <font size="4">Respetar el vocabulario de los expertos del dominio y normalizar su uso a lo largo del proyecto <b>sin cambiarlas por sinonimos (naipe es naipe en todo el proyecto y no carta, casino, etc). </b></font>
     </p>
     <p>
       
@@ -373,27 +391,36 @@
   </body>
 </html></richcontent>
 </node>
-<node TEXT="Analisis del comportamiento" ID="ID_1742819822" CREATED="1597292388686" MODIFIED="1647230487183" HGAP_QUANTITY="38.75 pt" VSHIFT_QUANTITY="3 pt"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="Analisis del comportamiento" ID="ID_1742819822" CREATED="1597292388686" MODIFIED="1653641378641" HGAP_QUANTITY="38.75 pt" VSHIFT_QUANTITY="3 pt" COLOR="#000000"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      <font size="4">El <b>comportamiento de una clase</b>&nbsp;es el conocimiento que un objeto tiene que tener y las acciones que puede realizar. </font>
+      <font size="4">El <b>comportamiento de una clase</b>&nbsp;es: </font>
     </p>
     <p>
-      <font size="4">Las responsabilidades son todos los servicios que presta a todos los contratos&nbsp;&nbsp;que apoya. (contrato es lo que me pide otra clase) </font>
+      <font size="4">&nbsp;&nbsp;&nbsp;* El </font><font size="4" color="#339900">conocimiento</font><font size="4">&nbsp;que un objeto tiene que tener </font>
+    </p>
+    <p>
+      <font size="4">&nbsp;&nbsp;&nbsp;* Las </font><font size="4" color="#339900">acciones</font><font size="4">&nbsp;que puede realizar. </font>
+    </p>
+    <p>
+      <font size="4">&nbsp;&nbsp;&nbsp;* Las responsabilidades son todos los servicios que presta a todos los contratos&nbsp;&nbsp;que apoya. (contrato es lo que me pide otra clase) </font>
     </p>
     <p>
       
     </p>
     <p>
-      <b><font size="4">Estrategia: </font></b><font size="4">Mientras que estos enfoques clásicos se centran en cosas tangibles en el dominio del problema, otra escuela de pensamiento en el análisis orientado a objetos se centra en el </font><font color="#ff0000" size="4">comportamiento dinámico</font><font size="4">&nbsp;como la fuente primaria de clases y objetos. </font>
+      <b><font size="4" color="#cc3300">Estrategia: </font></b>
+    </p>
+    <p>
+      <font size="4">Mientras que estos enfoques clásicos se centran en cosas tangibles en el dominio del problema, otra escuela de pensamiento, en el análisis orientado a objetos, se centra en el </font><font color="#993300" size="4"><b>comportamiento dinámico</b></font><font size="4">&nbsp;como la fuente primaria de clases y objetos. </font>
     </p>
     <ul>
       <li>
-        <font size="4">En esta estrategia hacen hincapié en las </font><font color="#ff0000" size="4">responsabilidades</font><font size="4">, que denotan &quot;el conocimiento de un objeto mantiene y las acciones que un objeto puede realizar. </font>
+        <font size="4">En esta estrategia hacen hincapié en las </font><font color="#993300" size="4">responsabilidades</font><font size="4">, que denotan &quot;el conocimiento de un objeto mantiene y las acciones que un objeto puede realizar. </font>
       </li>
       <li>
         <font size="4">Las responsabilidades tienen el propósito de transmitir un sentido de la finalidad de un objeto y su lugar en el sistema. </font>
@@ -426,6 +453,9 @@
       <font size="4">• Por el contrario, la responsabilidad de &quot;crear una venta&quot; puede implicar sólo uno o unos métodos </font>
     </p>
     <p>
+      
+    </p>
+    <p>
       <font color="#ff0000" size="4">Estrategia:</font><font size="4">&nbsp;</font>
     </p>
     <p>
@@ -441,22 +471,31 @@
       <font size="4">Antes se hacian en diseño, las clases sin comportamiento (sin metodos), pondera la responsabilidad, deja de mir las clases solo por los metodos y fijate tambien en el comportamiento que estas tienen. Un reparto de responsabilidades entre los metodos. </font>
     </p>
     <p>
+      
+    </p>
+    <p>
       <font color="#ff0000" size="4">Responsabilidad de una clase:</font><font color="#000000" size="4">&nbsp;El conocimiento que un objeto tiene que mantener y las acciones que puede realizar. </font>
     </p>
     <p>
       <font color="#ff0000" size="4">Responsabilidades de un objeto</font><font color="#000000" size="4">. Todos los servicios que presta a todos los contratos que apoya. </font>
     </p>
     <p>
-      <font color="#008000" size="4">Contrato: Se refiere a que otra clase me pide cosas a travez de mi interfaz. </font>
+      
     </p>
     <p>
-      <font color="#000000" size="4">Eintonces hay que prestar atencion a las clases no solo por los atributos sino que tambien por los metodos. </font>
+      <font color="#008000" size="4">Contrato: Se refiere a que otra clase me pide cosas a travez de mi interfaz.(interfaz es la parte visible de un objeto que sirve para comunicarse con el exterior) </font>
     </p>
     <p>
-      <font size="4">Algunos cuando plantea un problema solo muestra las clases, algunos muestran clases con atributos pero muy pocos diseñan las clases con metodos al plantear un problema. hay que poner esfuerzo en llegar mas profundo en el diseño. Cuando hago un planteamiento tengo que cubrir ambas partes, datos y operaciones. </font>
+      
     </p>
     <p>
-      <font size="4">Otra estrategias se hace sobre el comportamiento dinamico. la responsabilidad es el conocimiento que un objeto que mantener y las acciones que puede realizar. </font>
+      <font color="#000000" size="4">Entonces hay que prestar atencion a las clases no solo por los atributos sino que tambien por los metodos. </font>
+    </p>
+    <p>
+      <font size="4">Algunos cuando se plantea un problema solo muestra las clases, algunos muestran clases con atributos pero muy pocos diseñan las clases con metodos al plantear un problema. Hay que poner esfuerzo en llegar mas profundo en el diseño. Cuando hago un planteamiento tengo que cubrir ambas partes, datos y operaciones. </font>
+    </p>
+    <p>
+      <font size="4">Otra estrategias </font><font size="4" color="#993300">se hace sobre el comportamiento dinamico</font><font size="4">. la responsabilidad es el conocimiento que un objeto que mantener y las acciones que puede realizar. </font>
     </p>
     <p>
       <font size="4">Cuando hago un planteamiento tengo que cubrir ambas partes, datos y operaciones. </font>
@@ -468,19 +507,19 @@
       <font size="4">Establecer escenarios del uso de la aplicacion.( es como caso de uso) los programadores de antes los llamaban escenarios. </font>
     </p>
     <p>
-      <font size="4">Para esto se usa UML, los escenarios son como los casos de uso.</font>
+      <font size="4">Para esto se usa UML, los escenarios son como los </font><font size="4" color="#993300">casos de uso.</font>
     </p>
   </body>
 </html></richcontent>
 </node>
-<node TEXT="Analisis de Casos de uso" ID="ID_413632535" CREATED="1597292451213" MODIFIED="1647223715447" HGAP_QUANTITY="40.25 pt" VSHIFT_QUANTITY="3 pt"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="Analisis de Casos de uso" ID="ID_413632535" CREATED="1597292451213" MODIFIED="1653641691604" HGAP_QUANTITY="40.25 pt" VSHIFT_QUANTITY="3 pt"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      <b><font size="4" color="#ff0000">Estrategia</font><font size="4">:</font></b>
+      <b><font color="#ff0000" size="4">Estrategia</font><font size="4">:</font></b>
     </p>
     <p>
       <font size="4">▫ A medida que el equipo se guía a través de cada escenario de cada caso de uso, se deben identificar los objetos que participan en el escenario, las responsabilidades de cada objeto, y las formas en esos objetos colaboran con otros objetos, en términos de las operaciones de cada uno invoca en el otro. De esta manera, el equipo se ve obligado a elaborar una clara separación de las responsabilidades entre todas las abstracciones. </font>
@@ -489,25 +528,22 @@
       <font size="4">▫ No es necesario profundizar en estos escenarios al principio; simplemente podemos enumerarlos. Estos escenarios describen colectivamente las funciones del sistema de la aplicación. </font>
     </p>
     <p>
-      <font size="4">▫ A medida que continúa el proceso de desarrollo, estos escenarios iniciales se ampliaron para considerar las condiciones excepcionales, así como los <u>comportamientos secundarios del sistema. </u>Los </font>
+      <font size="4">▫ A medida que continúa el proceso de desarrollo, estos escenarios iniciales se ampliaron para considerar las condiciones excepcionales, así como los <u>comportamientos secundarios del sistema. </u></font>
     </p>
     <p>
-      <font size="4">resultados de estos escenarios secundarios introducen nuevas abstracciones para añadir, modificar o reasignar las responsabilidades de abstracciones existentes. </font>
+      <font size="4">Los resultados de estos escenarios secundarios introducen nuevas abstracciones para añadir, modificar o reasignar las responsabilidades de abstracciones existentes. </font>
     </p>
     <p>
-      <b><font size="4" color="#ff0000">Estrategia</font><font size="4">:</font></b>
+      <b><font color="#ff0000" size="4">Estrategia</font><font size="4">:</font></b>
     </p>
     <p>
-      <font size="4">▫ Entonces se procede por un estudio de cada escenario, posiblemente utilizando técnicas similares a las prácticas de la industria de la televisión <u>storyboard (guión gráfico) </u>y películas. </font>
+      <font size="4">▫ Entonces se procede por un estudio de cada escenario, posiblemente utilizando técnicas similares a las prácticas de la industria de la televisión </font><font size="4" color="#cc3300"><u>storyboard (guión gráfico)</u></font><u><font size="4">&nbsp;</font></u><font size="4">y películas. (ejemplo, como se mostraba en el pajaro loco)</font>
     </p>
     <p>
-      <font size="4">▫ Podemos aplicar el análisis de casos de uso ya en el análisis de requerimientos, a la que vez que los usuarios finales, otros expertos del dominio y el equipo de desarrollo enumeran los escenarios que </font>
+      <font size="4">▫ Podemos aplicar el análisis de casos de uso ya en el análisis de requerimientos, a la que vez que los usuarios finales, otros expertos del dominio y el equipo de desarrollo enumeran los </font><font size="4" color="#993300">escenarios</font><font size="4">&nbsp;que son fundamentales para el funcionamiento del sistema. </font>
     </p>
     <p>
-      <font size="4">son fundamentales para el funcionamiento del sistema. </font>
-    </p>
-    <p>
-      <font size="4">▫ Los escenarios también sirven como la base de las <u>pruebas del sistema.</u></font>
+      <font size="4">▫ </font><font size="4" color="#993300">Los escenarios también sirven como la base de las <u>pruebas del sistema.</u></font>
     </p>
   </body>
 </html></richcontent>
@@ -515,7 +551,7 @@
 </node>
 <node TEXT="Enfoques de clasificaicon" ID="ID_156087275" CREATED="1610255279602" MODIFIED="1647319991200" HGAP_QUANTITY="73.25 pt" VSHIFT_QUANTITY="1.5 pt">
 <edge COLOR="#00ff00"/>
-<node TEXT="Categorizacion clasica" ID="ID_226814444" CREATED="1610255296595" MODIFIED="1647223624225" HGAP_QUANTITY="28.25 pt"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="Categorizacion clasica" ID="ID_226814444" CREATED="1610255296595" MODIFIED="1653637937196" HGAP_QUANTITY="28.25 pt"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -525,19 +561,31 @@
       <font size="4"><b>Definicion</b>: </font>
     </p>
     <p>
-      <font size="4">Toas las entidades que tienen una determinada propiedad o conjunto de propiedades en comun, forman una categoria. Estas propiedades son necesarias y suficientes para definir la categoria&quot;, hay veces que la categorizacion clasica no encaja, pero si en la mayoria de los casos. </font>
+      <font size="4">Todas las entidades que tienen una determinada propiedad o conjunto de propiedades en comun, forman una categoria. Estas propiedades son necesarias y suficientes para definir la categoria&quot;, hay veces que la categorizacion clasica no encaja, pero si en la mayoria de los casos. </font>
     </p>
     <p>
-      <font size="4"><b>Ejemplo</b>. aves (pero el pinguino no cumple con muchas) </font>
+      <font size="4">&nbsp;</font>
+    </p>
+    <p>
+      <font size="4"><b>Ejemplo</b>. la agrupacion de entidad ave (pero el pinguino no cumple con muchas) </font>
+    </p>
+    <p>
+      
     </p>
     <p>
       <font size="4">Cuando estoy clasificando suelen surgir elementos que incordien mis categorias. No hay nada sencillo y nosotros trabajamos con eso( con conceptos) </font>
     </p>
     <p>
+      
+    </p>
+    <p>
       <font size="4"><b>Ejemplo soltero</b>, quien se puede considerar soltero? </font>
     </p>
     <p>
-      <font size="4">&nbsp;El papa es soltero? Un bebe es soltero? </font>
+      <font size="4">&nbsp;El papa es soltero? Un bebe es soltero? (no es facil definir o agrupar a las entidades cuya propiedad es soltero)</font>
+    </p>
+    <p>
+      
     </p>
     <p>
       <font size="4"><b>Ejemplo&nbsp;</b>de la cancion de amor. Definir un acancion de amor. </font>
@@ -551,20 +599,26 @@
   </body>
 </html></richcontent>
 </node>
-<node TEXT="Agrupacion conceptual" ID="ID_114872784" CREATED="1610255305020" MODIFIED="1647223626552" HGAP_QUANTITY="32 pt" VSHIFT_QUANTITY="0.75 pt"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="Agrupacion conceptual" ID="ID_114872784" CREATED="1610255305020" MODIFIED="1653637909135" HGAP_QUANTITY="32 pt" VSHIFT_QUANTITY="0.75 pt"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      <font size="4">En vez de enumerar las caracteristicas: </font>
+      <font size="4">En vez de enumerar las caracteristicas de las entidades para obtener clases: </font>
+    </p>
+    <p>
+      
     </p>
     <p>
       <font size="4">Las clases se generan mediante la formulacion de primeras descripciones conceptuales de estas clases y a con tinuacon, la clasificacion de las entidades de acuerdo con las descripciones. </font>
     </p>
     <p>
-      <font size="4">Describe la idea de la case, del conjunto de objetos que esta dentro de esa categorai y luego mira la descripcion. </font>
+      
+    </p>
+    <p>
+      <font size="4">Describe la idea de la case, del conjunto de objetos que esta dentro de esa categora y luego mira la descripcion. </font>
     </p>
     <p>
       
@@ -572,10 +626,13 @@
     <p>
       <font size="4">Ejemplo: Que es una cancion de amor. </font>
     </p>
+    <p>
+      <font size="4">Rata de dos patas es conciderada una cancion de amor? (o es mas bien de desamor). </font>
+    </p>
   </body>
 </html></richcontent>
 </node>
-<node TEXT="Teoria de Prototipos" ID="ID_644252921" CREATED="1610255312547" MODIFIED="1647223628400" HGAP_QUANTITY="32 pt" VSHIFT_QUANTITY="-1.5 pt"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="Teoria de Prototipos" ID="ID_644252921" CREATED="1610255312547" MODIFIED="1654732313812" HGAP_QUANTITY="32 pt" VSHIFT_QUANTITY="-1.5 pt"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -585,16 +642,19 @@
       <b><font size="4">Definicion</font></b><font size="4">: de Wittgestein </font>
     </p>
     <p>
-      <font size="4">Una categoria como juego&nbsp;&nbsp;no encaja en el molde clasico ya que no hay propiedades comunes compartidas por todos los juegos. </font>
+      <font size="4">Una categoria como &quot;juego&quot;&nbsp;&nbsp;no encaja en el molde clasico ya que no hay propiedades comunes compartidas por todos los &quot;juegos&quot;. </font>
     </p>
     <p>
-      <font size="4">La categoria juego esta unida a una familia que podria extenderse, (familias paradigmaticas) </font>
+      <font size="4">La categoria <b>juego</b>&nbsp;esta unida a una familia que podria extenderse, (familias paradigmaticas) La idea se extiende de una idea inicial que define la entidad y todas las que pertenecen a ese grupo. </font>
     </p>
     <p>
       
     </p>
     <p>
       <font size="4"><b>Ejemplo</b>&nbsp;javascript, hago un objeto y luego hago una copia de este objeto, esos son los prototipos de javascript. </font>
+    </p>
+    <p>
+      
     </p>
     <p>
       <font size="4">Si yo hago clases de objetos es paradefinir como funcionan todos estos objetos ya que es imposible hacer clases bien. </font>
@@ -605,11 +665,9 @@
     <p>
       <font size="4">Esta linea de pensamiento va a menos(no tan exitos, ejemplo javascript) </font>
     </p>
-    <p>
-      
-    </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -640,8 +698,35 @@
 </html></richcontent>
 </node>
 </node>
-<node TEXT="Modelo del Dominio" POSITION="right" ID="ID_1157111903" CREATED="1611883118985" MODIFIED="1647320643711" LINK="../documentos/8.%20Modelo%20de%20dominio.pdf" HGAP_QUANTITY="62 pt" VSHIFT_QUANTITY="2.25 pt">
+<node TEXT="Modelo del Dominio" POSITION="right" ID="ID_1157111903" CREATED="1611883118985" MODIFIED="1654735678857" LINK="../documentos/8.%20Modelo%20de%20dominio.pdf" HGAP_QUANTITY="62 pt" VSHIFT_QUANTITY="2.25 pt">
 <edge COLOR="#00007c"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">Un modelo de dominio es una representación de las clases conceptuales del mundo real, no de componentes software . No se trata de un conjunto de diagramas que describen clases software , u objetos software con responsabilidades Ingeniería de Software I - Modelo de Dominio </font>
+    </p>
+    <p>
+      <font size="4">(Larman, 2002) </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4">EL modelo del dominio es un artefacto clave del analisis orientado a objetos </font>
+    </p>
+    <p>
+      <font size="4">Se usan diagrama de clases</font>
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </map>
