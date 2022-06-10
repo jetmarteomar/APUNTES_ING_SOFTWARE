@@ -1,6 +1,6 @@
 <map version="freeplane 1.9.13">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="SCRUM" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1654826881117">
+<node TEXT="SCRUM" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1654826989547">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font SIZE="19" BOLD="true"/>
 <hook NAME="MapStyle" background="#002b36" zoom="0.826">
@@ -132,7 +132,7 @@
       Abrir
     </p>
     <p>
-      <a href="imagenes/mapa_general1.png"><font size="5">Imagen</font></a>
+      <a href="imagenes/mapa_general1.png"><font size="5">Imagen </font></a>
     </p>
     <p>
       
