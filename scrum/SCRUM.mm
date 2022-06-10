@@ -1,6 +1,6 @@
 <map version="freeplane 1.9.13">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="SCRUM" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1654792322018">
+<node TEXT="SCRUM" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1654826881117">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font SIZE="19" BOLD="true"/>
 <hook NAME="MapStyle" background="#002b36" zoom="0.826">
@@ -129,6 +129,9 @@
       
     </p>
     <p>
+      Abrir
+    </p>
+    <p>
       <a href="imagenes/mapa_general1.png"><font size="5">Imagen</font></a>
     </p>
     <p>
@@ -149,11 +152,9 @@
     <p>
       
     </p>
-    <p>
-      
-    </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node TEXT="Ligeras vs agiles" POSITION="right" ID="ID_1328298747" CREATED="1654361434464" MODIFIED="1654401537568"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
@@ -469,7 +470,7 @@
 </html></richcontent>
 </node>
 </node>
-<node TEXT="Definition of Ready (DoR)" ID="ID_477273028" CREATED="1654401404142" MODIFIED="1654405782342"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="Definition of Ready (DoR)" ID="ID_477273028" CREATED="1654401404142" MODIFIED="1654826872356"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -505,7 +506,8 @@
       </li>
     </ul>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 <node TEXT="Producto" POSITION="left" ID="ID_1631983689" CREATED="1654391112471" MODIFIED="1654391308122"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
